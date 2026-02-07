@@ -1,0 +1,79 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+.btn-action {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.page-header {
+  margin-bottom: 1.5rem;
+}
+
+.form-actions {
+  margin-top: 1.5rem;
+}
+
+.status-badge {
+  font-size: 0.75rem;
+  padding: 0.35rem 0.65rem;
+}
+
+.status-pending {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.status-confirmed {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.status-processing {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.status-shipped {
+  background-color: #6f42c1;
+  color: #fff;
+}
+
+.status-delivered {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.status-cancelled {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  color: #6c757d;
+}
+
+.empty-state i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
